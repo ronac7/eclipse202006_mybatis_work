@@ -23,7 +23,7 @@
 %>			
 			<%= evo.getEmpno() %>
 			<%= evo.getEname() %>
-			<%= evo.getHiredate() %><br>
+			<%= evo.getHiredate() %>
 <%	
 			// out.println(evo.getEmpno());
 			// out.println(evo.getEname());
@@ -52,13 +52,13 @@
 		}
 	%>
 </table>
-<h3>EMP SELECT ALL : jstl & el</h3>
+<%-- <h3>EMP SELECT ALL : jstl & el</h3>
 <hr>
 	<c:forEach items="${listAll }" var="emp">
 		${emp.empno }
 		${emp.ename }
 		${emp.hiredate }<br>
-	</c:forEach>
+	</c:forEach> --%>
 <h3>EMP SELECT ALL : jsp & el</h3>
 <hr>
 </body>
